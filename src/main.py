@@ -15,7 +15,7 @@ def do_some_other_stuff():
 
 def main():
     print 'This is for test purposes only'
-    hash1 = hashlib.md5()
+    hash1 = hashlib.sha512()
 
 
     h = SHA.new()
