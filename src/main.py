@@ -4,7 +4,8 @@ from Crypto.Cipher import ARC4 as A
 
 def do_some_other_stuff():
     foo = 'bar'
-    cipher = A.new('tempkey')
+    cipher = Crypto.Cipher.AES
+
 
     return foo
 
@@ -15,6 +16,7 @@ def main():
     hash1 = hashlib.sha512()
 
 
+Crypto.Hash.SHA512
     h = SHA.new()
     h.update(b'Hello')
     print h.hexdigest()
