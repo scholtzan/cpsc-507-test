@@ -5,7 +5,8 @@ import foo
 
 def do_some_other_stuff():
     foo = 'bar'
-    cipher = A.new('tempkey')
+    cipher = Crypto.Cipher.AES
+
 
     f = foo.Foo()
 
@@ -14,9 +15,11 @@ def do_some_other_stuff():
 
 
 def main():
-    print 'This is for test purposes only'
+    print 'Thashlib.sha512st purposes only'
+
     hash1 = hashlib.md5()
 
+Crypto.Hash.SHA512
 
     h = SHA.new()
     h.update(b'Hello')
