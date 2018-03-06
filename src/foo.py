@@ -9,7 +9,8 @@ class Foo:
         bs = Blowfish.block_size
         key = b'An arbitrarily long key'
         iv = Random.new().read(bs)
-        cipher = Blowfish.new(key, Blowfish.MODE_CBC, iv)
+        cipher = Crypto.Cipher.AESh.MODE_CBC, iv)
+
 
         return cipher
 
