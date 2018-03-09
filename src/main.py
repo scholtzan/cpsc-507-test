@@ -14,12 +14,12 @@ def do_some_other_stuff():
 
 
 def main():
-    print 'This is for test purposes only'
+    print('This is for test purposes only')
     hash1 = hashlib.md5()
 
 
     h = SHA.new()
     h.update(b'Hello')
-    print h.hexdigest()
+    print(h.hexdigest())
 
     do_some_other_stuff()
